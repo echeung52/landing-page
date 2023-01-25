@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.nav nav{
+    margin-right:80px;
+}
+.nav ul li{
+    display:inline-block;
+    margin: 0 30px;
+
+}
+.nav a{
+    color: rgb(17, 42, 65);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    background-color: rgb(255, 255, 255, .3)
+}
+
+
+.login{
+    padding: 10px 40px;
+    text-align: center;
+    font-weight: bold;
+    border-style:solid;
+    border-color:rgb(17, 42, 65);
+    background:transparent;
+    border-radius: 50px;
+    border-width: 3px;
+}
+.green{
+    margin:0;
+    width:100%;
+    height: 500px;
+    background-color: rgb(72, 228, 137);
+
+}
+.boldo{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size:50px;
+    color: rgb(17, 42, 65);
+}
+
+.about{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(17, 42, 65);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 75px;
+}
+
+.sec2words{
+    display:flex;
+    align-items: top;
+    justify-content: space-between;
+    height:300px;
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.weLove{
+    font-size:65px;
+    font-weight: lighter;
+    position: 1000px;
+    width: 800px;
+}
+
+.funding{
+    font-size: 20px;
+    color: rgb(17, 42, 65);
+    text-align: left;
+    line-height: 30px;
+    width:550px;
+    margin-right:50px;
+
+}
+
+.sec3{
+    padding:100px;
+    color: rgb(17, 42, 65);
+
+}
+
+.sec3-content{
+   display:flex;
+   align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.our{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.handshake{
+    font-size: 50px;
+    width: 1000px;
+    text-align: center;
+    line-height: 75px;
+}
+
+.numbers{
+    font-size: 100px;
+}
+
+.cool{
+    font-size: 20px;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+}
+
+.sec4{
+    background-color: rgb(17, 42, 65);
+    color:white;
+    height: 500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.sec4-our{
+    font-size: 16px;
+    line-height: 26px;
+    width: 600px;
+}
+
+.sec4-handshake{
+    font-size: 40px;
+    width:700px;
+    line-height: 60px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.sec5{
+    height: 200px;
+    margin-top:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec5-content{
+    width:700px;
+}
+.sec5-text{
+    color: gray;
+    font-size: 16px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    width: 600px;
+    line-height: 26px;
+}
+
+.sec5-header{
+    font-size: 40px;
+}
+
+.img{
+    height: 240px;
+    border-radius: 25px;
+}
+
+.sec6{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.sec6-name{
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: 22px; 
+}
+
+.sec6-text{
+    color: gray;
+    font-size: 16px;
+
+}
+
+.img2{
+    float: left;
+    height: 120px;
+    border-radius: 25px;
+}
+.sec7{
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+
+}
+.sec7-content{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap:30px;
+    
+}
+
+.sec7-outside{
+   display:flex;
+    justify-content: center;
+    margin-top:80px; 
+    margin-bottom: 100px;
+}
+
+.sec7-block{
+   
+    height: 120px;
+    width: 450px;
+
+}
+
+.sec7-text{
+    margin-left: 150px;
+}
+
+.blue{
+    background-color: rgb(17, 42, 65);
+    color: white; 
+    height: 720px;
+    padding: 90px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.top{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.value{
+    font-size:40px;
+    line-height: 60px;
+    width: 700px; 
+    text-align:center;
+    color:white;
+}
+
+.bottom{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    grid-auto-rows: 150px;
+    justify-content: space-between;
+}
+
+.bottom-text{
+    font-size:18px;
+    line-height: 30px;
+}
+.we{
+    font-size: 40px;
+}
+
+.we span{
+    color: rgb(72, 228, 137);
+}
+.final{
+    margin:100px 70px;
+}
+.box{
+    width:auto;
+    height: 300px;
+    background-color: rgb(17, 42, 65);
+    border-radius: 15px;
+    padding: 25px 0px;
+
+}
+
+.box-text{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.box-value{
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.email{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding-left: 30px;
+    
+}
+::placeholder{
+    color:rgb(35, 35, 35);
+    font-size: 18px;
+}
+
+.start{
+    background-color: rgb(72, 228, 137);
+    color: rgb(17, 42, 65);
+    width: 190px;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color:rgb(72, 228, 137);
+}
+
+.extra{
+    margin-top: 200px;
+}
+
+.extra-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    
+}
+
+.extra li{
+    text-decoration: none;
+}
+
+.boldo-extra{
+    font-size:50px;
+    color: rgb(17, 42, 65);
+}
+
+.social{
+    font-size: 16px;
+    color: gray;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    line-height: 25px;
+}
+.extra-container ul{
+    list-style: none;
+    position:relative;
+    top: -40px;
+}
+
+.extra-container a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.extra-container-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.extra-container li{
+    margin: 40px 0;
+}
+
+.extra-container span{
+    background-color: rgb(72, 228, 137);
+    color:rgb(17, 42, 65);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    margin-left:10px;
+    padding: 8px 15px;
+}
+
+.all{
+    color:gray;
+}
